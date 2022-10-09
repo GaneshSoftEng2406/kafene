@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+body {
+  background-color: #f6f7fb;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+#top-bar {
+
+
+
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 48px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  box-shadow: 0 2px 4px #ccc;
+  background-color: #fff;
+}
+#left-part,
+#logo {
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+#logo {
+  margin-right: 36px;
+}
+#logo > img {
+  width: 24px;
+  height: 28px;
+  margin-right: 8px;
+}
+#logo > p {
+  font-size: 24px;
+  letter-spacing: -1px;
+  font-weight: 500;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.8);
+}
+#nav-bar > a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 24px 0 16px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  margin: 0 10px;
+}
+#nav-bar > a.active {
+  color: #20b883;
+  border-bottom: 3px solid #20b883;
+}
+#right-part {
+  display: inline-block;
+  padding: 24px 0 16px;
+  margin: 0 10px;
+}
+#right-part > a {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+}
+main {
+  margin-top: 100px;
+  height: 200vh;
+}
+.page-wrapper {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 8% 4%;
+}
+.page-wrapper > h1 {
+  margin: 0;
+  /* font-size: 32px;
+  font-weight: bold; */
+}
+.content-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding: 24px 0;
+}
+#filters-section {
+  width: 180px;
+}
+#filters-section > h3 {
+  margin: 0;
+}
+#filters-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.filter-checkbox {
+  margin: 6px 0;
+  cursor: pointer;
+}
+.filter-checkbox > input {
+  margin-right: 12px;
+}
+#order-list {
+  width: 100%;
+}
+#order-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#order-table > tr {
+  vertical-align: middle;
+}
+#order-table th,
+#order-table td {
+  text-align: left;
+  padding: 12px 24px;
+  font-size: 14px;
+}
+td:nth-of-type(4) {
+  min-width: 150px;
+}
+/* td:nth-of-type(3) {
+  max-width: 300px;
+} */
+tr td {
+  background-color: #fff;
+  border-bottom: 4px solid #f6f7fb;
+}
+.cell-primary {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 500;
+}
+.cell-secondary {
+  color: #8c8c8c;
+}
