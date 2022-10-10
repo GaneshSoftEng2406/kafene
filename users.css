@@ -1,0 +1,55 @@
+.content-wrapper {
+  flex-direction: column;
+}
+#search-form {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+}
+#search {
+  width: calc(100% - 100px);
+  padding: 14px 24px;
+  font-size: 15px;
+  border: 0;
+  border-bottom: 2px solid #8c8c8c;
+  margin: 0 36px 0 0;
+  outline: none;
+}
+#reset {
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  border-radius: 30px;
+  padding: 14px 36px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background-color: #20b883;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+#search::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+#users-list {
+  width: 100%;
+}
+#users-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#users-table > tr {
+  vertical-align: middle;
+}
+#users-table th,
+#users-table td {
+  text-align: left;
+  padding: 12px 24px;
+  font-size: 14px;
+}
+td:nth-of-type(4) {
+  min-width: auto;
+}
